@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wolfrand dos Santos Neto - Desenvolvedor FrontEnd</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">WN</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá!</p>
+          <h1>Sou o Wolfrand Neto</h1>
+          <h2>Desenvolvedor FrontEnd</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/wolfrand-neto-4a74b8257/" target="_blank" class="outer-shadow"><i
+                class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/5579988193861" target="_blank" class="outer-shadow"><i
+                class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/Wolfrand" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="https://placehold.co/460x460" alt="foto do perfil do Wolfrand" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="https://placehold.co/460x460" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Sou um desenvolvedor frontend em
+              formação</strong>, apaixonado por tecnologia e design de interfaces.
+          </p>
+
+          <p>
+            Estou em transição para a área e venho me dedicando intensamente ao aprendizado de HTML, CSS, JavaScript e
+            React,
+            além de boas práticas de acessibilidade e responsividade.
+            Tenho construído projetos pessoais para aplicar o que aprendo e desenvolver um olhar crítico sobre a
+            experiência do usuário. Busco minha primeira oportunidade na área para crescer profissionalmente, colaborar
+            com equipes criativas e contribuir com soluções eficientes e bem construídas.
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="/src/arquivos/Wolfrand dos Santos Neto - Desenvolvedor FrontEnd CV.pdf"
+              class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.</p>
+        </div>
+
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. Ele define a estrutura do conteúdo, como textos, imagens, links, tabelas, etc., que vemos em um site.</p>
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web. Permite controlar aspectos como cores, fontes, espaçamento, layout e animações dos elementos da página.</p>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <p>GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.</p>
+        </div>
+
+        <div class="informacoes git">
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+          <h3>Git</h3>
+          <p>O Git é um sistema de controle de versão distribuído, gratuito e de código aberto. Ele permite que você acompanhe as alterações nos seus projetos de software, facilitando a colaboração entre desenvolvedores e a reversão para versões anteriores do código.</p>
+        </div>
+
+        <div class="informacoes jest">
+          <div class="logo">
+            <i class="devicon-jest-plain"></i>
+          </div>
+          <h3>Jest</h3>
+          <p>Jest é um framework de testes em JavaScript, especialmente conhecido por sua simplicidade e facilidade de uso, sendo ideal para testes unitários e de integração em aplicações JavaScript, especialmente React. Ele é desenvolvido pelo Facebook e se destaca pela sua capacidade de automatizar a criação e execução de testes, garantindo a qualidade do código.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">
+          <a href="https://wolfrand.github.io/fetch-github-api/" target="_blank">
+            <img src="https://placehold.co/515x700" alt="Nome do projeto" />
+            <h3>Busca de usuários do GitHub</h3>
+            <div class="informacoes-projeto">
+              <p>Feito usando HTML, CSS e JavaScript e API do GitHub</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://wolfrand.github.io/advice-generator/" target="_blank">
+            <img src="https://placehold.co/515x700" alt="Nome do projeto" />
+            <h3>Gerador de conselhos aleatórios</h3>
+            <div class="informacoes-projeto">
+              <p>Feito usando HTML, CSS e JavaScript e API de conselhos</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://wolfrand.github.io/formulario-com-validacao/" target="_blank">
+            <img src="https://placehold.co/515x700" alt="Nome do projeto" />
+            <h3>Formulário com validação de preenchimento</h3>
+            <div class="informacoes-projeto">
+              <p>Feito com HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://wolfrand.github.io/landing-page/" target="_blank">
+            <img src="https://placehold.co/515x700" alt="Nome do projeto" />
+            <h3>Landing Page responsiva</h3>
+            <div class="informacoes-projeto">
+              <p>Feito usando HTML e CSS Flexbox e Grid</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/wolfrand-neto-4a74b8257/" target="_blank" class="outer-shadow"><i
+            class="fab fa-linkedin-in"></i></a>
+        <a href="https://wa.me/5579988193861" target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/Wolfrand" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
